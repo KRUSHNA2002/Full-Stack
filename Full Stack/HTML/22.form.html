@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		
+		form
+		{
+			background-color: aqua;
+			
+            
+		}
+      fieldset
+       {
+       	background-color: aqua;
+       
+       }
+
+       fieldset input:hover
+       {
+       	 background-color: silver;
+       }
+
+	</style>
+</head>
+<body>
+
+
+	<!-- Attribute
+	1)name
+	2)placeholder
+	3)value
+	4)autofocus
+	5)autocomplete
+	6)readonly
+	7)disable
+	8)required
+	9)minlenth
+	10)maxlength
+	11)checked
+	12)selected
+	13)max
+	14)min
+	15)rows
+	16)cols
+	17)formaction -->
+	
+
+	<form action="path" method="post/get" enctype="multipart/form-data" style="">
+		<fieldset>
+			<legend>Personal Info</legend>
+                      
+            <label>Name :-</label>
+            <input type="text" name="sname" placeholder="Enter your name" value="" autocomplete="off" autofocus="" required="">
+
+          <!-- use only one time and focus the item and autocomplte= suggestionn are not given -->
+
+            <br>
+            <br>
+            <label>Email :-</label>
+            <input type="email" name="email" placeholder="Enter email" value="waghumbarekrushna143@gmail.com" readonly="" disabled="">
+
+           <!-- disable in path not view after saving and not send . and readonly= read only number not edit -->
+
+            <br><br>
+            <label>Mobile No :-</label>
+            
+            <input type="text" name="mobile" placeholder="Mobile number" value="" minlength="10" maxlength="12" required> 
+             
+             
+
+            <br>         
+
+            <br>
+            <label>Gender:-</label>
+            
+            <input type="radio" name="gender" value="male" checked=""><b>Male</b>
+            <input type="radio" name="gender" value="female"><b>Female</b>
+            <br>
+            <br>
+            <label>Photo:-</label>
+            <input type="file" name="photo">
+            <br>
+            <br>
+            <label>DOB:-</label>
+            <input type="date" name="dob" max="09-08-2022" min="08-07-2022">
+
+		</fieldset>
+<br>
+<br><br>
+		<fieldset>
+			
+			<legend>Contact Info & Education Details</legend>
+			<label>State</label>
+			<select name="state">
+				<option value="">Choose</option>
+				<option value="" selected="">Maharastra</option>
+				<option value="">Gujrat</option>
+			</select>
+			<br><br>
+			<label>City</label>
+			<input type="text" name="city" placeholder="Enter your city">
+			<br>
+			<br>
+			<label>Address</label>
+			<textarea placeholder="Enter your Address" rows="10" cols="50"></textarea>
+			<br>
+			<br>
+			<label>Pin code:-</label>
+			<input type="number" name="code" placeholder="enter your Pin code" value="414504">
+			<br>
+			<br>
+			<label>Dept:-</label>
+			<select name="Dept">
+				<option value="">Choose</option>
+				<option value="">Computer Science</option>
+				<option value=""> Math</option>
+			</select>
+
+			<br><br>
+				<label>Subject:-</label>
+				<input type="checkbox" name="sub1" ><b>PHP</b>
+				<input type="checkbox" name="sub2"><b>C++</b>
+				<input type="checkbox" name="sub3" checked=""><b>HTML</b>
+				<input type="checkbox" name="sub4"><b>Python</b>
+				<input type="checkbox" name="sub5" checked=""><b>JAVA</b>
+
+			
+		</fieldset>
+		<br>
+		<br>
+		<br>
+
+		<fieldset>
+			<legend>Login Details</legend>
+            <label>Username</label>
+            <input type="text" name="username" placeholder="Enter Username" value="">
+            <br>
+            <br>
+            <label>Password:</label>
+            <input type="password" name="pass" placeholder="Enter password" value="">
+            <br>
+            <br>
+
+
+		</fieldset>
+<br>
+<br><br>
+<center>
+		<input type="Reset">
+		<input type="submit">
+		
+		<button type="reset"> Empty</button>
+		<button type="submit" formaction="form-save.html"> Save</button>
+	</form>
+</center>
+</body>
+</html>
