@@ -1,0 +1,19 @@
+border collapse:collapse;
+box-sizing:border_box / content-box;
+
+
+OUTLINE:-
+
+outline-offset;
+
+BORDER RADIUS :-
+
+border-radius:
+border-top-left-radius:
+border-top-right-radius:
+border-bottom-left-radius:
+border-bottom-right-radius:
+
+
+TEXT :-
+
