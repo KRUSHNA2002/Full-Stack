@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+<style type="text/css">
+	html{
+		scroll-behavior: smooth;
+	}
+</style>
+</head>
+<body>
+<header class="bg-info">
+	<div class="container">
+		<div class="row p-2">
+			<div class="col-3 text-center">
+				<img src="https://p.kindpng.com/picc/s/485-4850258_bootstrap-logo-png-image-free-download-searchpng-logos.png"  style="width:60px;">
+			</div>
+			<div class="col-9">
+
+				<nav class="navbar navbar-expand-lg navbar-light bg-info">
+  <!-- <a class="navbar-brand" href="#">Home</a> -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+    	 <li class="nav-item active">
+        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="#about">About <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#gallary">Gallary</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#BLOG">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact us">contact Us</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+			</div>
+		</div>
+	</div>
+</header>
+
+<section id="home">
+	<div class="container-fluid">
+		<div class="row " >
+			<div class="col-12 p-0 ">
+				<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR70UfgmxZqsy5weyZ3o5YHdWruuunBR9CGZgErrwQ345RBQPFXR1U6vcB5M1Awd5JC7cI&usqp=CAU" class="d-block w-100" style="height: 600px;" alt="...">
+      <div class="carousel-caption  p-4 d-none d-md-block" style="background-color: hsla(120, 100%, 50%, 0.2);">
+      	<h2 class="text-danger text-uppercase display-4" style="font-weight: bold;">Lorem ipsum dolor sit amet</h2>
+      	<h3 class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      	proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	</h3>
+         <br>
+         <button class="btn btn-warning bg-transparent ">View</button>
+         <button class="btn btn-primary">Webpage</button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZgDVD_cX5emficZjpyx1lk0z0utt3Q8zTyMHBCCmGhigzLAQMP0j72OT7oTui_tbvHjc&usqp=CAU" class="d-block w-100" style="height: 600px;" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5KnVqNsfLWBi5e1kdOlXhoXY4jjmwhww7O4QvE1JRIz0OWwND6NBQqQntE5ZM8f7ow9M&usqp=CAU" class="d-block w-100" style="height: 600px;" alt="...">
+    </div>
+  </div>
+ <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </button>
+</div>
+			</div>
+		</div>
+	</div>
+</section >
+
+<section class="mt-5 mb-5" id="about">
+	<div class="container">
+		<div class="row">
+			<div class=" col-12 col-md-6">
+				<img src="https://p.kindpng.com/picc/s/485-4850258_bootstrap-logo-png-image-free-download-searchpng-logos.png"  style="width:400px;">
+			</div>
+			<div class=" col-12 col-md-6 text-center bg-white">
+				<h1 class="text-primary text-uppercase">About Us</h1>
+				<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	</p>
+
+				<button class="btn btn-primary btn-lg ">View more</button>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="mb-5" id="gallary">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 text-center font-weight-bold">
+				<h1 class="text-primary text-uppercase">Gallary</h1>
+			</div>
+		</div>
+		<div class="row" >
+			<div class=" col-12 col-sm-6 col-md-4 col-xl-3 mt-5" >
+				<img src="https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__340.jpg" class="w-100"> 
+			</div>
+		
+
+		<div class=" col-12 col-sm-6 col-md-4 col-xl-3 mt-5" >
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBPAMNjkMUcRGrCii9unR--r3rZh-vQfBBlBh2XceanQPysmWQSgea7qLcMVpoxbB79cs&usqp=CAU" class="w-100"> 
+			</div>
+		
+
+		<div class=" col-12 col-sm-6 col-md-4 col-xl-3 mt-5" >
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeGr53-9pHvxAkQe9ojMrmx_-KkD2U6Foh1MvT5zc3w7V7XCGErDWx0KdgZA42n3PmVPg&usqp=CAU" class="w-100">
+			</div>
+		
+
+		<div class=" col-12 col-sm-6 col-md-4 col-xl-3 mt-5" >
+				<img src="https://i.pinimg.com/originals/5d/b5/1b/5db51b6fe5ad535d4a2155710bd8d414.jpg" class="w-100">
+			</div>
+
+
+
+		<div class=" col-12 col-sm-6 col-md-4 col-xl-3 mt-5" >
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeGr53-9pHvxAkQe9ojMrmx_-KkD2U6Foh1MvT5zc3w7V7XCGErDWx0KdgZA42n3PmVPg&usqp=CAU" class="w-100">
+			</div>
+		
+
+		<div class=" col-12 col-sm-6 col-md-4 col-xl-3 mt-5" >
+				<img src="https://i.pinimg.com/originals/5d/b5/1b/5db51b6fe5ad535d4a2155710bd8d414.jpg" class="w-100">
+			</div>
+
+			<div class=" col-12 col-sm-6 col-md-4 col-xl-3 mt-5" >
+				<img src="https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__340.jpg" class="w-100"> 
+			</div>
+		
+
+		<div class=" col-12 col-sm-6 col-md-4 col-xl-3 mt-5" >
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBPAMNjkMUcRGrCii9unR--r3rZh-vQfBBlBh2XceanQPysmWQSgea7qLcMVpoxbB79cs&usqp=CAU" class="w-100"> 
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<section id="BLOG">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 text-center font-weight-bold">
+				<h1 class="text-primary text-uppercase">BLOG</h1>
+			</div>
+		</div>
+
+		<div class="row">
+		<div class="col-12 col-md-6 col-lg-4 mt-4">
+			<div class="card border border-primary">
+				<div class="card-header p-0">
+					<img src="https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__340.jpg" class="w-100 ">
+				</div>
+				<div class="card-body text-left">
+					<span class="text-left">12-12-2022</span>
+					<span class="float-right">By-admin</span>
+					<h3 class="text-center mt-3">Blog first title</h3>
+
+					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	</p>
+				</div>
+				<div class="card-footer text-center ">
+					<button class="btn btn-primary btn-lg text-center">View</button>
+				</div>
+			</div>
+		</div>
+		
+
+		<div class="col-12 col-md-6 col-lg-4 mt-4 ">
+			<div class="card border border-primary ">
+				<div class="card-header p-0">
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBPAMNjkMUcRGrCii9unR--r3rZh-vQfBBlBh2XceanQPysmWQSgea7qLcMVpoxbB79cs&usqp=CAU" class="w-100 ">
+				</div>
+				<div class="card-body text-left">
+					<span class="text-left">12-12-2022</span>
+					<span class="float-right">By-admin</span>
+					<h3 class="text-center mt-3">Blog first title</h3>
+
+					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	</p>
+				</div>
+				<div class="card-footer text-center ">
+					<button class="btn btn-primary btn-lg text-center">View</button>
+				</div>
+			</div>
+		</div>
+
+		<div class=" col-12 col-md-6 col-lg-4 mt-4">
+			<div class="card border border-primary">
+				<div class="card-header p-0">
+					<img src="https://i.pinimg.com/originals/5d/b5/1b/5db51b6fe5ad535d4a2155710bd8d414.jpg" style="height:230px" class="w-100 ">
+				</div>
+				<div class="card-body text-left">
+					<span class="text-left">12-12-2022</span>
+					<span class="float-right">By-admin</span>
+					<h3 class="text-center mt-3">Blog first title</h3>
+
+					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	</p>
+				</div>
+				<div class="card-footer text-center ">
+					<button class="btn btn-primary btn-lg text-center">View</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	</div>
+	
+</section>
+
+<section id="contact us">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-6 mt-5 ">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120638.05486155902!2d74.74267340000002!3d19.1103224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdcb05d46788921%3A0x6677e92c1a5181b6!2sAhmednagar%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1665959012272!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-100 p-0"></iframe>
+			</div>
+			<div class=" col-12 col-6 text-center font-weight-bold">
+				<h1 class="text-primary text-uppercase mt-5">Contact Us</h1>
+
+				<div class="row bg-primary text-center">
+					<div class="col-6  ">
+						<input type="text" name="" placeholder="Name" class="form-control mt-4 ">
+					</div>
+
+					<div class="col-6">
+						<input type="email" name="" placeholder="E-mail" class="form-control mt-4 ">
+					</div>
+
+					<div class="col-6">
+						<input type="text" name="" placeholder="phone" class="form-control mt-4 ">
+					</div>
+
+					<div class="col-6">
+						<input type="address" name="" placeholder="address" class="form-control mt-4 ">
+					</div>
+
+					<div class="col-12">
+						<textarea class="form-control mt-4 " rows="5" placeholder="messages">Messages</textarea>
+					</div>
+             <div class="col-12 text-center mt-3" >      
+					<button class="btn btn-dark">Submit</button>
+				</div>
+				</div>
+			</div>
+		</div>
+</section>
+
+<footer class="bg-primary pt-5 pb-5 mt-5" id="footer">
+	<div class="container">
+		<div class="row">
+		<div class="  col-md-4 text-center">
+			<img src="https://p.kindpng.com/picc/s/485-4850258_bootstrap-logo-png-image-free-download-searchpng-logos.png" class="" style="width: 100px;">
+			<p class="text-white text-justify mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.</p>
+		</div>
+
+
+			<div class="  col-md-4 text-center ">
+		     <h1 class="text-danger text-center">Quick Link</h1>
+		    <ul class="list-unstyled">
+		     	<li class="mt-2">
+		     		<a href="#Home"  class="text-white border-0 h3" > Home</a>
+		     	</li>
+
+		     	<li class="mt-2">
+		     		<a href="#about" class="text-white border-0 h3" >About</a>
+		     	</li>
+		     		<li class="mt-2">
+		     		<a href="#gallary"  class="text-white border-0 h3"> Gallary</a>
+		     	</li>
+
+		     	<li class="mt-2">
+		     		<a href="#BLOG" class="text-white border-0 h3" >About</a>
+		     	</li>
+
+		     	<li class="mt-2">
+		     		<a href="#contact us" class="text-white border-0 h3" >Footer</a>
+		     	</li>
+
+		    </ul>
+	   </div>
+
+	   <div class="  col-md-4 text-center">
+	   	<div class="row">
+	   		<div class="col-12 ">
+	   		   <h3 class="text-danger">Address:-</h3>
+	   		   <p class="text-white">Ahmednagar,maharastra,india,414001</p>
+	   		</div>
+	   		<div class="col-12">
+	   			<h3 class="text-white">Mobile:-</h3>
+	   			<p class="text-white">7020787143</p>
+	   			<p class="text-white">9766459963</p>
+	   		</div>
+
+	   		<div class="col-12">
+	   			<h3 class="text-danger">Email:-</h3>
+	   			<p class="text-white">waghumbarekrushna143@gmzil.com</p>
+	   			<p class="text-white">Abhipatharkar123@gmail.com</p>
+	   		</div>
+	   	</div>
+	   </div>
+	</div>
+</div>
+</footer>
+</body>
+</html>
