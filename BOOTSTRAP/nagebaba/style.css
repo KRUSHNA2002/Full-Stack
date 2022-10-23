@@ -545,3 +545,177 @@
 	/*background-color: red;*/
 }
 
+
+
+       /*** ABOUT1 ***/
+
+
+
+
+
+
+
+
+  .background1
+  {
+  	height: 400px;
+  	width: 100%;
+  	background-image: url(images/about/bg1.jpg);
+  	background-color:hsla(120, 100%, 50%,0.5) ;
+  	background-size: 100% 100%;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  }
+
+   .background1 h1
+  {
+  	position: absolute;
+     top: 320px;
+     font-size: 60px;
+     font-weight: bold;
+  }
+ .background1 a:hover
+ {
+    color: blue !important;
+ }
+
+
+
+       /**** ABOUT-2 ****/
+
+
+ .background2
+  {
+  	height: 500px;
+  	width: 100%;
+  	background-image: url(images/about/bg3.jpg);
+  	
+   
+  	background-size: 100% 100%;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  }
+ 
+   .background2 h1
+  {
+  	
+  	position: absolute;
+     top: 320px;
+     font-size: 60px;
+     font-weight: bold;
+  }
+ .background2 a:hover
+ {
+    color: blue !important;
+ }
+
+
+
+
+                             /* SEVA  */
+
+
+
+.seva_bg
+{
+	height: 400px;
+  	width: 100%;
+  	background-image: url(images/seva/seva.png);
+    background-size: 100% 100%;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+}
+
+.seva_bg_hsla
+{
+	background-color: hsla(300, 40%, 60%, 0.3);
+	height: 400px;
+	width: 100%;
+}
+
+ .seva_bg h1
+  {
+  	
+  	position: absolute;
+     top: 320px;
+     font-size: 60px;
+     font-weight: bold;
+  }
+ .seva_bg a:hover
+ {
+    color: blue !important;
+ }
+
+ .seva_body h5
+ {
+     text-align: left;
+ }
+ .seva_body input
+ {
+   width: 100%;
+   height: 40px;
+   text-align: ;
+ }
+
+
+
+-----------/* THEVYOJNA*/---------------
+
+
+
+ .thev h1
+  {
+  	
+  	position: absolute;
+     top: 320px;
+     font-size: 60px;
+     font-weight: bold;
+  }
+ .thev a:hover
+ {
+    color: blue !important;
+ }
+
+
+
+-----------/* THEVYOJNA1*/---------------
+
+
+
+ .thev1 h1
+  {
+  	
+  	position: absolute;
+     top: 320px;
+     font-size: 60px;
+     font-weight: bold;
+  }
+ .thev1 a:hover
+ {
+    color: blue !important;
+ }
+
+
+-----------/* THEVYOJNA2*/---------------
+
+
+
+
+ .thev2 a:hover
+ {
+    color: blue !important;
+ }
+
+
+
+
+
+
+/*------------------------ Loan ---------------------------*/
+
+
+
+
+
+
+
